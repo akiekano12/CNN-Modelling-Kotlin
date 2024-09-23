@@ -1,3 +1,18 @@
-This mobile application, developed using Kotlin, leverages Convolutional Neural Networks (CNNs) in combination with TensorFlow to perform real-time image detection and object classification. When a user captures or uploads an image, the application processes it using a pre-trained CNN model to identify objects within the image. The classified objects are then converted into audio notifications, providing auditory feedback by announcing the name of the detected objects.
+Object Detection Mobile Application
+This Kotlin-based mobile application leverages cutting-edge Convolutional Neural Networks (CNNs) in tandem with TensorFlow to perform real-time object detection and classification. Designed to enhance accessibility and user experience, the app processes captured or uploaded images, identifies objects, and provides auditory feedback by announcing the names of the detected items.
 
-This application is designed to enhance accessibility and user interaction by integrating advanced machine learning algorithms for image recognition. The use of CNN allows for high accuracy in object classification due to its ability to automatically learn spatial hierarchies of features. TensorFlow facilitates efficient processing and deployment of the model on mobile platforms, ensuring smooth performance even with complex image inputs. The audio feedback component serves to provide a seamless and intuitive experience for users, particularly for those with visual impairments.
+Key Features
+Real-Time Object Detection: Utilizing a pre-trained CNN model, the app analyzes images with impressive speed and accuracy, recognizing multiple objects within the scene.
+Audio Notifications: To improve usability, particularly for visually impaired users, the app converts classified objects into clear audio prompts, announcing the detected items.
+Powered by TensorFlow: Efficient model processing and deployment on mobile devices ensure high performance even with complex image inputs, making the app smooth and responsive.
+How It Works
+Capture or Upload: Users can either take a photo or select one from their gallery.
+CNN-based Image Processing: The app uses advanced CNN models to detect and classify objects.
+Auditory Feedback: Once the objects are identified, the app reads their names aloud, providing an intuitive and hands-free interaction.
+Why It’s Useful
+This application empowers users, especially those with visual impairments, by providing real-time, audio-based object recognition. It seamlessly integrates advanced machine learning technology with a focus on accessibility, ensuring a more inclusive digital experience for everyone.
+
+Tech Stack
+Language: Kotlin
+Machine Learning: TensorFlow
+Neural Networks: Convolutional Neural Networks (CNNs)
